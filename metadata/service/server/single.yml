@@ -1,0 +1,6 @@
+applications:
+- supervisor
+parameters:
+  supervisor:
+    server:
+      enabled: true

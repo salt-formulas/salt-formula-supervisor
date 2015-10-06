@@ -1,0 +1,2 @@
+supervisor/*             /usr/share/salt-formulas/env/supervisor/
+metadata/service/*      /usr/share/salt-formulas/reclass/service/supervisor/

@@ -1,0 +1,22 @@
+
+{%- set server = salt['grains.filter_by']({
+    'Arch': {
+        'pkgs': ['supervisor'],
+        'formula_service': 'supervisord',
+        'config_prefix': '/etc/supervisor.d/',
+        'config_suffix': '.ini',
+    },
+    'Debian': {
+        'pkgs': ['supervisor'],
+        'formula_service': 'supervisor',
+        'config_prefix': '/etc/supervisor/conf.d/',
+        'config_suffix': '.conf',
+    },
+    'RedHat': {
+        'pkgs': ['supervisor'],
+        'formula_service': 'supervisord',
+        'config_prefix': '/etc/supervisor/conf.d/',
+        'config_suffix': '.conf',
+    },
+}, merge=salt['pillar.get']('supervisor:server')) %}
+
