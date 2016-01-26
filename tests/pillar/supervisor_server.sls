@@ -1,0 +1,3 @@
+supervisor:
+  server:
+    enabled: true
