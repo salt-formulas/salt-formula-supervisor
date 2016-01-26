@@ -12,6 +12,8 @@ Sample pillars
 
 Robotice services
 
+.. code-block::
+
     supervisor:
       server:
         enabled: true
@@ -25,6 +27,8 @@ Robotice services
 
 OctoPrint services
 
+.. code-block::
+
     supervisor:
       server:
         enabled: true
@@ -34,6 +38,8 @@ OctoPrint services
             type: octoprint
 
 Sentry services
+
+.. code-block::
 
     supervisor:
       server:
