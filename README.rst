@@ -1,18 +1,18 @@
 
-==========
-Supervisor
-==========
+==================
+Supervisor Formula
+==================
 
 Supervisor is a client/server system that allows its users to monitor and control a number of processes on UNIX-like operating systems.
 
 It shares some of the same goals of programs like launchd, daemontools, and runit. Unlike some of these programs, it is not meant to be run as a substitute for init as “process id 1”. Instead it is meant to be used to control processes related to a project or a customer, and is meant to start like any other program at boot time.
 
-Sample pillars
+Sample Pillars
 ==============
 
 Robotice services
 
-.. code-block::
+.. code-block:: yaml
 
     supervisor:
       server:
@@ -27,7 +27,7 @@ Robotice services
 
 OctoPrint services
 
-.. code-block::
+.. code-block:: yaml
 
     supervisor:
       server:
@@ -39,7 +39,7 @@ OctoPrint services
 
 Sentry services
 
-.. code-block::
+.. code-block:: yaml
 
     supervisor:
       server:
@@ -52,8 +52,8 @@ Sentry services
             name: worker
             type: sentry
 
-Read more
-=========
+More Information
+================
 
 * http://supervisord.org/
 
