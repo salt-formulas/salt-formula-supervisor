@@ -1,4 +1,4 @@
 name: "supervisor"
 version: "0.2"
-source: "https://github.com/tcpcloud/salt-formula-supervisor"
+source: "https://github.com/salt-formulas/salt-formula-supervisor"
 
